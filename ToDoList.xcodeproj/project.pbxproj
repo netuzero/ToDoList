@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F091BDF18388BAF0053ED31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F091BDE18388BAF0053ED31 /* Main.storyboard */; };
 		4FC4AA9F18388A1B0023BFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC4AA9E18388A1B0023BFE3 /* Foundation.framework */; };
 		4FC4AAA118388A1B0023BFE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC4AAA018388A1B0023BFE3 /* CoreGraphics.framework */; };
 		4FC4AAA318388A1B0023BFE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC4AAA218388A1B0023BFE3 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F091BDE18388BAF0053ED31 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4FC4AA9B18388A1B0023BFE3 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC4AA9E18388A1B0023BFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4FC4AAA018388A1B0023BFE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +109,7 @@
 		4FC4AAA418388A1B0023BFE3 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				4F091BDE18388BAF0053ED31 /* Main.storyboard */,
 				4FC4AAAD18388A1B0023BFE3 /* AppDelegate.h */,
 				4FC4AAAE18388A1B0023BFE3 /* AppDelegate.m */,
 				4FC4AAB018388A1B0023BFE3 /* Images.xcassets */,
@@ -221,6 +224,7 @@
 			files = (
 				4FC4AAA918388A1B0023BFE3 /* InfoPlist.strings in Resources */,
 				4FC4AAB118388A1B0023BFE3 /* Images.xcassets in Resources */,
+				4F091BDF18388BAF0053ED31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +445,7 @@
 				4FC4AAC918388A1C0023BFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FC4AACA18388A1C0023BFE3 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				4FC4AACC18388A1C0023BFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
